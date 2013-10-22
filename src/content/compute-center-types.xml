@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compute-center-types>
+	<compute-center-type>
+		<name>Rackspace FirstGen Cloud Server</name>
+		<description>Rackspace FirstGen Cloud Server</description>
+		<connector-impl-class-name>
+			com.singularity.ee.connectors.rackspace.RackSpaceCloudServerConnector
+		</connector-impl-class-name>
+		<property-definitions>
+			<property-definition>
+				<name>User Name</name>
+				<description>User Name</description>
+				<required>true</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>80</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Api Key</name>
+				<description>Api Key</description>
+				<required>true</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>80</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Location</name>
+				<description>The location of your Rackspace Cloud Server Account</description>
+				<required>true</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>10</string-max-length>
+				<allowed-string-values>us,uk</allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+		</property-definitions>
+		<machine-descriptor-definitions>
+			<property-definition>
+				<name>Server Size</name>
+				<description>Configuration of the associated server</description>
+				<required>true</required>
+				<type>STRING</type>
+				<default-string-value>RAM: 256MB Disk: 10GB</default-string-value>
+				<string-max-length>80</string-max-length>
+				<allowed-string-values>RAM: 256MB Disk: 10GB,RAM: 512MB Disk: 20GB,RAM: 1024MB Disk: 40GB,RAM: 2048MB Disk: 80GB,RAM: 4096MB Disk: 160GB,RAM: 8192MB Disk: 320GB,RAM: 15872MB Disk: 620GB,RAM: 30720MB Disk: 1200GB</allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Shared IP Group Id</name>
+				<description>Shared IP Group Id for the associated server to be launched into.</description>
+				<required>false</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>80</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+			<property-definition>
+				<name>Shared IP</name>
+				<description>Shared IP address for the associated server</description>
+				<required>false</required>
+				<type>STRING</type>
+				<default-string-value></default-string-value>
+				<string-max-length>100</string-max-length>
+				<allowed-string-values></allowed-string-values>
+				<default-file-value></default-file-value>
+			</property-definition>
+		</machine-descriptor-definitions>
+	</compute-center-type>
+</compute-center-types>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<image-repository-types>
+
+	<image-repository-type>
+		<name>Rackspace FirstGen Cloud Server</name>
+		<description>Rackspace FirstGen Cloud Server</description>
+        <connector-impl-class-name>
+			com.singularity.ee.connectors.rackspace.RackSpaceCloudServerConnector
+        </connector-impl-class-name>
+		
+    <property-definitions>
+      <property-definition>
+        <name>User Name</name>
+        <description>User Name</description>
+        <required>true</required>
+        <type>STRING</type>
+        <default-string-value></default-string-value>
+        <string-max-length>80</string-max-length>
+        <allowed-string-values></allowed-string-values>
+        <default-file-value></default-file-value>
+      </property-definition>
+      <property-definition>
+        <name>Api Key</name>
+        <description>ApI Key</description>
+        <required>true</required>
+        <type>STRING</type>
+        <default-string-value></default-string-value>
+        <string-max-length>80</string-max-length>
+        <allowed-string-values></allowed-string-values>
+        <default-file-value></default-file-value>
+      </property-definition>
+		<property-definition>
+			<name>Location</name>
+			<description>The location of your Rackspace Cloud Server Account</description>
+			<required>true</required>
+			<type>STRING</type>
+			<default-string-value>us</default-string-value>
+			<string-max-length>10</string-max-length>
+			<allowed-string-values>us,uk</allowed-string-values>
+			<default-file-value></default-file-value>
+		</property-definition>
+    </property-definitions>
+		
+	</image-repository-type>
+	
+</image-repository-types>
