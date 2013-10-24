@@ -1,4 +1,4 @@
-package com.singularity.ee.connectors.rackspace;
+package com.appdynamics.connectors;
 
 import org.jclouds.cloudservers.CloudServersAsyncClient;
 import org.jclouds.cloudservers.CloudServersClient;

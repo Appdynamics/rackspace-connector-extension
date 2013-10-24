@@ -4,8 +4,8 @@
 		<name>Rackspace FirstGen Cloud Server</name>
 		<description>Rackspace FirstGen Cloud Server</description>
 		<connector-impl-class-name>
-			com.singularity.ee.connectors.rackspace.RackSpaceCloudServerConnector
-		</connector-impl-class-name>
+            com.appdynamics.connectors.RackSpaceCloudServerConnector
+        </connector-impl-class-name>
 		<property-definitions>
 			<property-definition>
 				<name>User Name</name>
