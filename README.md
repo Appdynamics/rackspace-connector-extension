@@ -41,11 +41,11 @@ rackspace-connector-extension
 
 Click Compute Cloud->Register Compute Cloud. Refer to the image below
 
-![alt tag](https://raw.github.com/Appdynamics/rackspace-connector-extension/master/rackspace%20Compute%20Fields.png?login=rvasanda&token=7f509b16f54234b256e7a4b9a5fbaf6b)
+![alt tag](https://raw.github.com/Appdynamics/rackspace-connector-extension/master/Rackspace%20First%20Gen%20Cloud%20Fields.png?login=rvasanda&token=617dff8d2c592acb7f943a21ed47308f)
 
 Click Image->Register Image. Refer to the image below
 
-![alt tag](https://raw.github.com/Appdynamics/rackspace-connector-extension/master/rackspace%20Compute%20Image.png?login=rvasanda&token=115e990ccc6ba6ae95c294affc71fe51)
+![alt tag](https://raw.github.com/Appdynamics/rackspace-connector-extension/master/Rackspace%20FirstGen%20Cloud%20Server%20Image.png?login=rvasanda&token=9358343a48218f8065c6f4df52d1a0f1)
 
 ##Contributing
 
