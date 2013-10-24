@@ -1,4 +1,4 @@
-package com.appdynamics.connectors;
+package com.appdynamics.connectors.rackspace;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.appdynamics.connectors;
+package com.appdynamics.connectors.rackspace;
 
 import org.jclouds.cloudservers.CloudServersAsyncClient;
 import org.jclouds.cloudservers.CloudServersClient;

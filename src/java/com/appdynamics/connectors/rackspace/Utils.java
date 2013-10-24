@@ -1,4 +1,4 @@
-package com.appdynamics.connectors;
+package com.appdynamics.connectors.rackspace;
 
 import com.singularity.ee.connectors.api.IControllerServices;
 import com.singularity.ee.connectors.entity.api.IProperty;

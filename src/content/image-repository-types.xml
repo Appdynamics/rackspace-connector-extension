@@ -5,7 +5,7 @@
 		<name>Rackspace FirstGen Cloud Server</name>
 		<description>Rackspace FirstGen Cloud Server</description>
         <connector-impl-class-name>
-            com.appdynamics.connectors.RackSpaceCloudServerConnector
+            com.appdynamics.connectors.rackspace.RackSpaceCloudServerConnector
         </connector-impl-class-name>
 		
     <property-definitions>
