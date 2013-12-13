@@ -1,5 +1,5 @@
-rackspace-connector-extension
-===========================
+Rackspace FirstGen Connector Extension
+======================================
 
 ##Use Case
 
