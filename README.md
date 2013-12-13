@@ -51,11 +51,11 @@ Lastly, the rackspace-connector-extension may be used to stage migration of an a
 
 Click Compute Cloud->Register Compute Cloud. Refer to the image below
 
-![alt tag](https://raw.github.com/Appdynamics/rackspace-connector-extension/master/Rackspace%20First%20Gen%20Cloud%20Fields.png?login=rvasanda&token=617dff8d2c592acb7f943a21ed47308f)
+![alt tag](https://raw.github.com/Appdynamics/rackspace-connector-extension/master/Rackspace%20First%20Gen%20Cloud%20Fields.png)
 
 Click Image->Register Image. Refer to the image below
 
-![alt tag](https://raw.github.com/Appdynamics/rackspace-connector-extension/master/Rackspace%20FirstGen%20Cloud%20Server%20Image.png?login=rvasanda&token=9358343a48218f8065c6f4df52d1a0f1)
+![alt tag](https://raw.github.com/Appdynamics/rackspace-connector-extension/master/Rackspace%20FirstGen%20Cloud%20Server%20Image.png)
 
 ##Contributing
 
